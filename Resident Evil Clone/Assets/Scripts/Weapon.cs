@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class Weapon : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] protected Magazine_E currentMag;
     [SerializeField] protected int ammoCapacity;
     [SerializeField] protected int currentAmmo;
     [SerializeField] protected float fireRate;
