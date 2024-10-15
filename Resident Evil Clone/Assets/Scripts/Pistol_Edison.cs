@@ -67,6 +67,6 @@ public class Pistol_Edison : Weapon
 
         Debug.Log("Reloading Complete");
         canFire = true;
-        currentMag.Reload;
+        currentMag.Reload();
     }
 }
